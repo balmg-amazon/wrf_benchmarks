@@ -2,7 +2,7 @@
 set -ex
 
 # Necessary software
-sudo yum groupinstall "Development Tools" -y
+# sudo yum groupinstall "Development Tools" -y
 set +e
 sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 set -e
